@@ -145,7 +145,6 @@
     width: 80vh; */
     max-width: 80%;
     max-height: 60%;
-
   }
 
   .helpcard h1 {
@@ -308,7 +307,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (min-width:375px) and (max-width: 576px) {
   .navbar-menu {
     display: none;
     flex-direction: column;
@@ -355,9 +354,16 @@
 
   #counter {
     display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  .coun1 {
+    flex-basis:1;
+    flex-grow: 1;   
   }
 
-  #cause{
+  #cause {
     height: auto;
   }
 
@@ -369,17 +375,17 @@
     width: 100%;
   }
 
-  .helpcard{
+  .helpcard {
     background-color: blue;
     width: 100%;
-    max-width: 80%;
+    max-width: 100%;
     height: 35vh;
     margin-right: 12px;
     margin-left: 12px;
     margin-top: 0vh;
     padding-bottom: 20vh;
   }
-  #help{
+  #help {
     justify-content: center;
     align-items: center;
   }
@@ -388,10 +394,11 @@
     font-size: 1.2rem;
   }
 
-  #joining{
+  #joining {
     flex-direction: column;
     height: auto;
     padding-bottom: 10vh;
     padding-top: 10vh;
   }
 }
+
