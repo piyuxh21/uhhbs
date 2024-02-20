@@ -10,26 +10,21 @@
 </head>
 
 <body>
-    <main>
-        <nav>
-            <div id="logo"><img src="./pic/logo1.PNG"></div>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Bank details</a></li>
-                <li><a href="">Register</a></li>
 
-            </ul>
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">
+            <img src="./pic/logo1.PNG">
+        </a>
+        <div class="navbar-toggle">&#9776;</div>
+        <ul class="navbar-menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-            <div id="links">
-                <div class="img1"><a href="#"><img src="./pic/icons8-twitterx-50.png" alt=""></a></div>
-                <div class="img2"><a href="#"><img src="./pic/icons8-facebook-50.png" alt=""></a></div>
-                <div class="img3"><a href="#"><img src="./pic/icons8-instagram-50.png" alt=""></a></div>
-
-            </div>
-            <!-- <img src="pic/menu.png" class="menu-icon" onclick="menutoggle()"> -->
-        </nav>
-    </main>
+    <!-- navbar-end -->
 
     <div id="container">
         <div class="subcontainer">
@@ -38,7 +33,7 @@
         </div>
     </div>
     <!-- ------------ -->
-    <section id="cause1">
+    <!-- <section id="cause1">
         <h1>Lorem ipsum dolor sit.</h1>
         <div class="cause1-card">
             <div class="card1">
@@ -67,9 +62,72 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex aperiam dicta iure!</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- --------------end------------------- -->
+    <div class="card-scroll">
+        <div class="cards3">
+            <div class="card3">
+                <img src="./pic/services-img1.jpg" alt="Image 1">
+                <h2>help the ecosystem</h2>
+                <div class="card-content">
+
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                </div>
+            </div>
+            <!-- onecardens -->
+            <div class="card3">
+                <img src="./pic/services-img2.jpg" alt="Image 1">
+                <h2>help the ecosystem</h2>
+                <div class="card-content">
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rdend -->
+            <div class="card3">
+                <img src="./pic/services-img3.jpg" alt="Image 1">
+                <h2>help the ecosystem</h2>
+                <div class="card-content">
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                    <div class="card-raise">
+                        <h5>
+                            RS 00000
+                        </h5>
+                        <p>raise</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!----------------end------------------- -->
 
 
     <section id="hero">
@@ -125,28 +183,28 @@
 
     <!-- --------------------end-------------------- -->
 
-    <section id="cause">
+    <div id="cause">
+        <h1>We serve for peoples</h1>
         <div class="card2">
-            <img src="https://dengeefoundation.online/assets/img/icon/services1.svg" alt="The Wanderer">
-            <h2>The Wanderer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut adipisci obcaecati autem rerum
-                exercitationem..</p>
+            <div class="cause-card">
+                <img src="./pic/services1.svg">
+                <h3>pure food & water</h3>
+                <p>We’re on a mission to bring clean and safe water to every person on the planet.</p>
+            </div>
+            <div class="cause-card">
+                <img src="./pic/services1.svg">
+                <h3>pure food & water</h3>
+                <p>We’re on a mission to bring clean and safe water to every person on the planet.</p>
+            </div>
+            <div class="cause-card">
+                <img src="./pic/services1.svg">
+                <h3>pure food & water</h3>
+                <p>We’re on a mission to bring clean and safe water to every person on the planet.</p>
+            </div>
         </div>
 
-        <div class="card2">
-            <img src="https://dengeefoundation.online/assets/img/icon/services1.svg" alt="The Magician">
-            <h2>The Magician</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, laborum? Nobis, temporibus.</p>
-        </div>
 
-        <div class="card2">
-            <img src="https://dengeefoundation.online/assets/img/icon/services1.svg" alt="The Star">
-            <h2>The Star</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex aperiam dicta iure!</p>
-        </div>
-    </section>
-
-
+    </div>
 
     <!-- --------------------end-------------------- -->
     <div id="help">
@@ -163,20 +221,13 @@
     <section id="joining">
         <div class="join-title">
             <h1>Join with Us</h1>
-            <p>The legal definition of a charitable organization (and of charity) varies between countries and in
-                some instances regions of the country. The regulation, the tax treatment, and the way.</p>
+            <p>The legal definition of a charitable organization (and of charity) <br>varies between countries and in
+                some instances regions of the country. <br> The regulation, the tax treatment, and the way.</p>
             <button id="btn" type="submit">test</button>
         </div>
         <div class="join-img">
-            <div class="join-imgs">
-                <img src="./pic/joining2.jpg" alt="Image">
-            </div>
-            <div class="join-imgs">
-                <img src="./pic/joining1.jpg" alt="Image">
-            </div>
-        </div>
-        <div class="join-img">
-            
+            <img src="./pic/joining2.jpg" alt="Image">
+            <img src="./pic/joining2.jpg" alt="Image">
         </div>
     </section>
 
@@ -263,6 +314,17 @@
     </script>
 
     <!-- -------menu js--------- -->
+
+    <script>
+        document.querySelector('.navbar-toggle').addEventListener('click', function () {
+            var menu = document.getElementById('menu');
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'flex';
+            }
+        });
+    </script>
 
 
 </body>
