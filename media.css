@@ -1,419 +1,72 @@
-@media screen and (max-width: 1400px) {
-  nav {
-    padding-left: 6rem;
-    padding-right: 6rem;
-    background-color: red;
-  }
-
-  #container-main h1 {
-    font-size: 25px;
-    padding-top: 1rem;
-    font-weight: 400;
-  }
-
-  .conatiner-sub-main {
-    /* background-color: red; */
-    flex: 1;
-  }
-
-  .about-container h1 {
-    margin-top: 10vh;
-  }
-
-  #about-img {
-    width: 380px;
-    object-fit: contain;
-    margin-top: 10vh;
-  }
-
-  #serve h1 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-
-  .serve2 {
-    /* background-color: rgb(38, 255, 0); */
-    padding-left: 5vh;
-    padding-right: 5vh;
-    margin-top: 10vh;
-  }
-
-  .subserve {
-    /* background-color: red; */
-    object-fit: cover;
-  }
-
-  .helpcard {
-    background-color: gold;
-    height: 220px;
-    padding-left: 20px;
-    max-width: 80%;
-  }
-
-  .helpcard #btn {
-    margin-left: 17px;
-  }
-
-  .join-title #btn,
-  .about-container #btn {
-    margin-top: 8vh;
-  }
-
-  .join-title h1 {
-    font-size: 2.5rem;
-  }
-  /* .join-title p {
-    font-size: 1.rem;
-  } */
-
-  footer #btn {
-    margin-top: 4vh;
-  }
-}
-@media screen and (max-width: 1199.92px) {
-  nav {
-    background-color: gold;
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .cause1-card {
-    /* padding-left: 4vh; */
-    gap: 8vh;
-    padding-top: 8vh;
-  }
-
-  .join-title h1 {
-    font-size: 2.2rem;
-  }
-
-  #join-img img {
-    margin-right: 7vh;
-  }
-
-  #counter {
-    height: 25vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
-  }
-}
-@media screen and (max-width: 1024.92px) {
-  nav {
-    background-color: blue;
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .cause1-card {
-    gap: 10vh;
-    padding-left: 2.7rem;
-    padding-right: 2.7rem;
-  }
-
-  .count1 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  #cause {
-    gap: 5vh;
-    /* padding-left: 2.7rem;
-    padding-right: 2.7rem; */
-    padding-top: 8vh;
-  }
-
-  #counter {
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  nav {
-    background-color: rgb(193, 193, 233);
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  #cause1,
-  #hero,
-  #counter {
-    height: auto;
-  }
-
-  .helpcard {
-    /* height: 42vh;
-    width: 80vh; */
-    max-width: 80%;
-    max-height: 60%;
-  }
-
-  .helpcard h1 {
-    font-size: 2rem;
-  }
-  .cause1-card {
-    gap: 8vh;
-    padding-left: 2.7rem;
-    padding-right: 2.7rem;
-  }
-
-  .count1 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  #cause {
-    gap: 5vh;
-    padding-top: 8vh;
-  }
-
-  #joining {
-    display: flex;
-  }
-}
-@media screen and (max-width: 852px) {
-  nav {
-    background-color: rgb(46, 46, 58);
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-  #counter {
-    height: auto;
-  }
-
-  #cause1 {
-    height: 90vh;
-  }
-  .card1 {
-    width: 240px;
-    height: 300px;
-  }
-
-  #hero {
-    height: auto;
-    background-color: gold;
-  }
-  .about-container h1 {
-    font-size: 2.2rem;
-  }
-  .about-container h3 {
-    font-size: 1.3rem;
-  }
-  .about-container p {
-    font-size: 1rem;
-  }
-
-  .about-container {
-    padding-right: 10vh;
-    padding-left: 10vh;
-  }
-  #hero img {
-    width: 320px;
-  }
-  .helpcard {
-    height: 45vh;
-    width: 75vh;
-    max-width: 80%;
-  }
-
-  .helpcard h1 {
-    font-size: 2rem;
-  }
-  .cause1-card {
-    gap: 6vh;
-    padding-left: 2.7rem;
-    padding-right: 2.7rem;
-  }
-
-  .count1 {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  #cause {
-    gap: 5vh;
-    /* padding-left: 2.7rem;
-    padding-right: 2.7rem; */
-    padding-top: 8vh;
-  }
-  .card2 {
-    height: 330px;
-  }
-
-  .card2 img {
-    width: 100px;
-  }
-
-  #joining {
-    background-color: red;
-    display: flex;
-  }
-  .join-img {
-    display: flex;
-  }
-}
 @media screen and (max-width: 768px) {
-  nav {
-    background-color: lightcoral;
-  }
-  .card3 {
-    width: 250px; /* Adjust card width for medium-sized screens */
-    margin-right: 8px; /* Adjust margin between cards */
-  }
-  .card1 {
-    background-color: gold;
-    width: 230px;
-  }
-
-  .card1 img {
-    width: 180px;
-  }
-  #hero {
-    flex-direction: column;
-    height: auto;
-    padding-bottom: 10vh;
-    background-color: gold;
-    align-items: start;
-  }
-
-  #hero img {
-    width: 450px;
-  }
-
-  .about-container {
-    padding-left: 10vh;
-  }
-
-  .about-container p {
-    font-size: 1.3rem;
-  }
-
-  .about-container h1 {
-    font-size: 2.9rem;
-    text-align: start;
-  }
-  .about-container h3 {
-    font-size: 1.4rem;
-  }
-
-  .card2 {
-    /* width: 300px;
-    height: 300px; */
-    align-items: center;
-  }
-
-  .counter {
-    font-size: 1.4rem;
-    padding-top: 3vh;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .navbar-menu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 1;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    gap: 2vh;
-  }
-
-  .navbar-menu li {
-    padding: 10px 20px;
-  }
-
-  .navbar-toggle {
-    display: block;
-  }
-
-  .card3 {
-    width: 200px; /* Adjust card width for small screens */
-    margin-right: 6px; /* Adjust margin between cards */
-  }
-
-  #about-img {
-    max-width: 80%;
-  }
-
-  .about-container h1 {
-    font-size: 2.5rem;
-    padding-top: 2vh;
-  }
-  .about-container h3 {
-    font-size: 1rem;
-    padding-top: 2vh;
-  }
-  .about-container p {
-    font-size: 0.8rem;
-    padding-top: 2vh;
-  }
-
-  #counter {
-    display: inline-block;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-  }
-  /* .coun1 {
-    flex-basis:1;
-    flex-grow: 1;   
+  /* #counter {
+    display: flex;
   } */
 
-  #cause {
-    height: auto;
+  .count1 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 100%;
   }
 
-  .card2 {
-    display: inline-block;
+  .hero4-img img {
+    width: 1300px;
+  }
+
+  .hero4-join h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+  .hero4-join h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .hero4-join p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .help {
+    height: 35vh;
+  }
+  .help h1 {
+    font-size: 2.9rem;
+    font-weight: 400;
+  }
+  .help p {
+    font-size: 1.4rem;
+  }
+  .hero8-content {
     flex-direction: column;
-    background-color: gold;
-    height: auto;
-    width: 100%;
-  }
-
-  .helpcard {
-    background-color: blue;
-    width: 100%;
-    height: 27vh;
-    margin-right: 12px;
-    margin-left: 12px;
-    margin-top: 0vh;
-    padding-bottom: 20vh;
-  }
-  #help {
-    justify-content: center;
     align-items: center;
-  }
-  .helpcard p {
-    margin-top: 5px;
-    font-size: 0.8rem;
-  }
-  .helpcard h1 {
-    margin-top: 5px;
-    font-size: 1.6rem;
+    justify-content: center;
   }
 
-  #joining {
-    flex-direction: column;
-    height: auto;
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+  .hero8-img {
+    width: 650px;
+    margin-top: 5vh;
   }
 
-  .join-img img {
-    width: 42%;
+  .hero8-join h1 {
+    font-size: 65px;
+    font-weight: 400;
+  }
+  .hero8-join p {
+    font-size: 25px;
+    font-weight: 500;
   }
 }
-@media screen and (max-width: 413px){
+
+@media screen and (max-width: 575.98px) {
+  .navbar {
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
   .navbar-menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     width: 100%;
     background-color: #333;
@@ -429,16 +82,121 @@
 
   .navbar-toggle {
     display: block;
+    font-size: 30px;
   }
 
-  .about-container h1{
-    font-size: 2.8rem;
+  .navbar-brand img {
+    width: 50px;
   }
-  .about-container h3{
-    font-size: 2.8rem;
+
+  .hero4-content {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 20px;
   }
-  .about-container p{
-    font-size: 2.8rem;
+
+  .hero8-content {
+    display: inline-block;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero8-img {
+    width: 296px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero8-join h1 {
+    font-size: 65px;
+    font-weight: 400;
+  }
+  .hero8-join p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .hero4-img img {
+    width: 700px;
+    padding-top: 7vh;
+  }
+
+  .hero4-join {
+    margin: 10px;
+  }
+  .hero4-join h4 {
+    font-size: 1.4rem;
+  }
+  .hero4-join p {
+    font-size: 1.3rem;
+  }
+  .hero4-join h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero7-card {
+    height: 50vh;
+    width: 100%;
+  }
+  #counter {
+    height: auto;
+    padding: 10vh;
+    flex-direction: column;
+    align-items: start;
+    gap: 80px;
+  }
+  .coun1-img img{
+    width: 76px;
+  }
+  .hero6-card {
+    display: inline-block;
+    flex-basis: 1;
+    display: grid;
+    padding: 30px;
+  }
+
+  .coun1-img {
+    font-size: 1.5rem;
+  }
+
+  #hero4 {
+    display: inline-block;
+    padding: 30px;
+  }
+
+  /* .hero7-card {
+    width: auto;
+    height: auto;
+  } */
+
+  .help {
+    height: auto;
+    width: auto;
+    padding: 30px;
   }
 }
 
+@media screen and (max-width: 480px) {
+  .hero8-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    width: auto;
+  }
+
+  .hero8-img img {
+    width: 800px;
+    display: flex;
+  }
+
+  .hero8-join h1 {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+  .hero8-join p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
