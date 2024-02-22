@@ -156,30 +156,28 @@
 
 /* hero4 start */
 
-#hero4 {
+/* #hero4 {
   overflow: hidden;
   padding: 10vh;
 }
 .hero4-content {
   display: flex;
-}
-/* .hero4-img {
-  display: flex;
 } */
 
-.hero4-img img {
+
+/* .hero4-img img {
   max-width: 100%;
   object-fit: cover;
   margin: 10px;
   min-width: 130px;
-}
+} */
 
-.hero4-join h1 {
+/* .hero4-join h1 {
   font-size: 2.2rem;
   padding-bottom: 5vh;
-  /* padding-top: 5vh; */
-}
-
+  padding-top: 5vh;
+} */
+/* 
 .hero4-join p {
   margin-bottom: 5vh;
   padding-top: 3vh;
@@ -191,8 +189,17 @@
   border: none;
   border-radius: 7px;
   background-color: red;
+} */
+/* .row{
+  padding: 40px;
+  background-color: red;
+} */
+.hero4-container{
+  padding: 20px;
 }
-
+.content {
+  padding-top: 20px;
+}
 /* end */
 
 #counter {
@@ -239,7 +246,7 @@
   justify-content: flex-end;
 } */
 
-.hero7-card {
+/* .hero7-card {
   background-image: url(./pic/section-bg2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -272,7 +279,30 @@
   border: none;
   border-radius: 7px;
   background-color: red;
+} */
+
+.hero7-section {
+  background-image: url('./pic/section-bg2.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+  height: 100vh;
 }
+.hero7-content {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: aqua;
+}
+.btn-hero7 {
+  margin-top: 20px;
+}
+/* 
+.hero7-content{
+  float: right;
+} */
+
 
 /* hero8start */
 
@@ -318,6 +348,7 @@
   border-radius: 7px;
   background-color: red;
 }
+
 
 /* hero8end */
 
