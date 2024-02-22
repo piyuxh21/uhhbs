@@ -9,7 +9,7 @@
     width: 100%;
   }
 
-  .hero4-img img {
+  /* .hero4-img img {
     width: 1300px;
   }
 
@@ -24,7 +24,7 @@
   .hero4-join p {
     font-size: 1rem;
     font-weight: 500;
-  }
+  } */
 
   .help {
     height: 35vh;
@@ -89,11 +89,11 @@
     width: 50px;
   }
 
-  .hero4-content {
+  /* .hero4-content {
     flex-direction: column;
     flex-direction: column-reverse;
     padding: 20px;
-  }
+  } */
 
   .hero8-content {
     display: inline-block;
@@ -116,7 +116,7 @@
     font-size: 25px;
     font-weight: 500;
   }
-
+/* 
   .hero4-img img {
     width: 700px;
     padding-top: 7vh;
@@ -133,7 +133,7 @@
   }
   .hero4-join h1 {
     font-size: 2.9rem;
-  }
+  } */
 
   .hero7-card {
     height: 50vh;
@@ -159,11 +159,11 @@
   .coun1-img {
     font-size: 1.5rem;
   }
-
+/* 
   #hero4 {
     display: inline-block;
     padding: 30px;
-  }
+  } */
 
   /* .hero7-card {
     width: auto;
