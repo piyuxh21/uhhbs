@@ -6,14 +6,17 @@
 }
 
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: #fff4f4;
+  color: #121010;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   height: 13vh;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .navbar-brand {
@@ -45,19 +48,19 @@
 
 .navbar-menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #1d1b1b;
   transition: color 0.3s ease;
 }
 
 .navbar-menu li a:hover {
-  color: #ffc107;
+  color: #af9443;
 }
 
 .navbar-toggle {
   display: none;
   cursor: pointer;
   font-size: 24px;
-  color: #fff;
+  color: #000000;
 }
 
 .menu-icon {
@@ -91,7 +94,7 @@
 
 #element {
   font-size: 30px;
-  color: rgb(255, 0, 0);
+  color: rgb(239, 199, 199);
 }
 
 /* end */
@@ -117,7 +120,8 @@
 .cards3 {
   display: inline-flex;
   gap: 10vh;
-  padding-left: 20vh;
+  /* padding-left: 5vh;
+  padding-right: 5vh; */
 }
 
 .card3 {
@@ -164,7 +168,6 @@
   display: flex;
 } */
 
-
 /* .hero4-img img {
   max-width: 100%;
   object-fit: cover;
@@ -194,22 +197,29 @@
   padding: 40px;
   background-color: red;
 } */
-.hero4-container{
+/* .hero4-container {
   padding: 20px;
-}
+} */
 .content {
   padding-top: 20px;
 }
+
+/* #hero4-img{
+  transition: 0.3s; 
+} */
+/* #hero4-img:hover{
+   transform: scale(1.1);
+} */
 /* end */
 
 #counter {
   display: flex;
-  height: 30vh;
+  padding: 60px;
   background-image: url(./pic/counter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 5vh;
+  padding-top: 7vh;
   justify-content: space-around;
   color: #fff;
 }
@@ -282,18 +292,18 @@
 } */
 
 .hero7-section {
-  background-image: url('./pic/section-bg2.jpg'); /* Replace with your background image URL */
+  background-image: url("./pic/section-bg2.jpg"); /* Replace with your background image URL */
   background-size: cover;
   background-position: center;
-  color: white;
+  color: #333;
   text-align: center;
   padding: 100px 0;
-  height: 100vh;
+  height: auto;
 }
 .hero7-content {
   max-width: 600px;
   margin: 0 auto;
-  background-color: aqua;
+  background-color: #fffdfd;
 }
 .btn-hero7 {
   margin-top: 20px;
@@ -302,7 +312,6 @@
 .hero7-content{
   float: right;
 } */
-
 
 /* hero8start */
 
@@ -336,7 +345,6 @@
   padding-top: 10vh;
 }
 
-
 .hero8-join p {
   margin-bottom: 10vh;
 }
@@ -349,6 +357,17 @@
   background-color: red;
 }
 
+/* #charity_image {
+  transition: 0.3s;
+}
+#charity_image:hover {
+  transform: scale(1.1); 
+} */
+
+.hero-image img {
+  max-width: 450px;
+  width: 350px;
+}
 
 /* hero8end */
 
