@@ -3,6 +3,27 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style-type: none;
+}
+
+h1 :root {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+  }
+
+  --primary-color: #ff7878;
+  --white: #fff;
+  --black: #000;
+  --gray: #a9a9a9;
+  --light-gray: rgba(0, 0, 0, 0.3);
+  --dark: rgba(0, 0, 0, 0.8);
+  --font-default: "Open Sans", sans-serif;
+  --font-title: "Playfair Display", serif;
 }
 
 .navbar {
@@ -68,6 +89,12 @@
   margin-left: 7px;
   display: none;
 }
+/* .btn-primary{
+  background-color: #000;
+} */
+/* .btn{
+  background-color: red;
+} */
 
 /* end */
 
@@ -125,8 +152,8 @@
 }
 
 .card3 {
-  width: 300px; /* Adjust card width as needed */
-  margin-right: 10px; /* Adjust margin between cards as needed */
+  width: 300px;
+  margin-right: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -159,58 +186,9 @@
 }
 
 /* hero4 start */
-
-/* #hero4 {
-  overflow: hidden;
-  padding: 10vh;
-}
-.hero4-content {
-  display: flex;
-} */
-
-/* .hero4-img img {
-  max-width: 100%;
-  object-fit: cover;
-  margin: 10px;
-  min-width: 130px;
-} */
-
-/* .hero4-join h1 {
-  font-size: 2.2rem;
-  padding-bottom: 5vh;
-  padding-top: 5vh;
-} */
-/* 
-.hero4-join p {
-  margin-bottom: 5vh;
-  padding-top: 3vh;
-}
-
-#hero4-btn {
-  width: 130px;
-  height: 30px;
-  border: none;
-  border-radius: 7px;
-  background-color: red;
-} */
-/* .row{
-  padding: 40px;
-  background-color: red;
-} */
-/* .hero4-container {
-  padding: 20px;
-} */
 .content {
   padding-top: 20px;
 }
-
-/* #hero4-img{
-  transition: 0.3s; 
-} */
-/* #hero4-img:hover{
-   transform: scale(1.1);
-} */
-/* end */
 
 #counter {
   display: flex;
@@ -251,48 +229,8 @@
 
 /* hero7start */
 
-/* #hero7 {
-  display: flex;
-  justify-content: flex-end;
-} */
-
-/* .hero7-card {
-  background-image: url(./pic/section-bg2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.help {
-  background-color: rgb(240, 238, 231);
-  justify-content: flex-end;
-  width: 500px;
-  height: 35vh;
-  float: right;
-  margin-top: 15%;
-  margin-right: 5%;
-  margin-left: 5%;
-  padding: 15px 10px 0 34px;
-}
-
-.help p {
-  margin-top: 5vh;
-  margin-bottom: 3vh;
-}
-
-#donatebtn {
-  width: 130px;
-  height: 30px;
-  border: none;
-  border-radius: 7px;
-  background-color: red;
-} */
-
 .hero7-section {
-  background-image: url("./pic/section-bg2.jpg"); /* Replace with your background image URL */
+  background-image: url("./pic/section-bg2.jpg");
   background-size: cover;
   background-position: center;
   color: #333;
@@ -308,17 +246,9 @@
 .btn-hero7 {
   margin-top: 20px;
 }
-/* 
-.hero7-content{
-  float: right;
-} */
 
 /* hero8start */
 
-#hero8 {
-  /* overflow: hidden;
-  padding: 10vh; */
-}
 .hero8-content {
   display: flex;
   align-items: center;
@@ -391,4 +321,41 @@ form button {
   border-radius: 7px;
   background-color: red;
   color: #fff;
+}
+
+/* about/2ndpage */
+
+.bg-about {
+  background-image: url(./pic/aboutbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 40vh;
+  height: 55vh;
+}
+
+.selected {
+  border-bottom: solid red;
+}
+
+/* -----address----- */
+
+.bg-contact {
+  background-image: url(./pic/aboutbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 40vh;
+  height: 55vh;
+}
+
+/* ----gallery---- */
+
+/* Optional custom styles */
+.gallery-item {
+  margin-bottom: 20px;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
 }
