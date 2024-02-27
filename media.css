@@ -89,6 +89,11 @@
     width: 50px;
   }
 
+  .selected{
+    border-bottom: solid red;
+    width: auto;
+  }
+
   /* .hero4-content {
     flex-direction: column;
     flex-direction: column-reverse;
@@ -203,5 +208,10 @@
   .hero8-join p {
     font-size: 1rem;
     font-weight: 500;
+  }
+
+  .selected{
+    border-bottom: solid red;
+    width: 80px;
   }
 }
