@@ -1,5 +1,3 @@
-
-
 document.querySelector(".navbar-toggle").addEventListener("click", function () {
   var menu = document.getElementById("menu");
   if (menu.style.display === "flex") {
@@ -29,4 +27,29 @@ counters.forEach((counter) => {
   };
 
   updateCount();
+});
+
+// login page
+$(document).ready(function () {
+  $("#login-tab-link").click(function (e) {
+    e.preventDefault();
+    $("#login-tab").show();
+    $("#signup-tab").hide();
+  });
+
+  $("#signup-tab-link").click(function (e) {
+    e.preventDefault();
+    $("#login-tab").hide();
+    $("#signup-tab").show();
+  });
+
+  $("#auth-form").submit(function (e) {
+    e.preventDefault();
+    // Add your authentication logic here
+    if ($("#login-tab").is(":visible")) {
+      alert("Login form submitted");
+    } else {
+      alert("Sign up form submitted");
+    }
+  });
 });
