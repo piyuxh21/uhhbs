@@ -89,12 +89,6 @@ h1 :root {
   margin-left: 7px;
   display: none;
 }
-/* .btn-primary{
-  background-color: #000;
-} */
-/* .btn{
-  background-color: red;
-} */
 
 /* end */
 
@@ -358,4 +352,45 @@ form button {
 .gallery-item img {
   width: 100%;
   height: auto;
+}
+
+
+/* -------login--- */
+#signbtn{
+  background-color: red;
+  color: #fff;
+  padding-bottom: 8px;
+  text-align: center;
+  transition: .3s all ease;
+  height: 40px;
+}
+
+#signbtn:hover{
+  background-color: rgb(209, 92, 92);
+}
+
+#loginbtn{
+  background-color: red;
+  color: #fff;
+  padding-bottom: 8px;
+  text-align: center;
+  transition: .3s all ease;
+  height: 40px;
+}
+
+#login:hover{
+  background-color: rgb(209, 92, 92);
+}
+
+#btnhomes{
+  background-color: red;
+  color: #fff;
+  padding-bottom: 8px;
+  text-align: center;
+  transition: .3s all ease;
+  height: 40px;
+}
+
+#btnhomes:hover{
+  background-color: rgb(209, 92, 92);
 }
